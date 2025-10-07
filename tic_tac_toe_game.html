@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+<link rel="stylesheet" href="tic_tac_toe_game.css">
+
+</head>
+<body>
+    
+<main>
+    <div class="answer" id="done">Play Now</div>
+
+<div class="main">
+     <h1>Tic-tac-toe</h1>
+
+    <div class="sub_main">
+        <div  class="click_div">
+            <div id="x1" class="xx" onclick="index(this,0)"></div>
+        </div>
+        <div  class="click_div" >
+            <div id="o1" class="oo" onclick="index(this,1)"></div>
+        </div>
+        <div class="click_div" >
+            <div id="x2" class="xx" onclick="index(this,2)"></div>
+        </div>
+    </div>
+
+    <div class="sub_main">
+        <div class="click_div" >
+        <div id="o2" class="oo" onclick="index(this,3)"></div>
+        </div>
+        <div class="click_div" >
+            <div id="x3" class="xx" onclick="index(this,4)"></div>
+        </div>
+        <div class="click_div" >
+        <div id="o3" class="oo" onclick="index(this,5)"></div>
+        </div>
+    </div>
+
+    <div class="sub_main">
+        <div id="index7" class="click_div" >
+            <div id="x4" class="xx" onclick="index(this,6)"></div>
+        </div>
+        <div id="index8" class="click_div" >
+        <div id="o4" class="oo" onclick="index(this,7)"></div>
+        </div>
+        <div id="index9" class="click_div" >
+            <div id="x5" class="xx" onclick="index(this,8)"></div>
+        </div>
+    </div>
+
+    <div class="end_metch" id="end_m"></div>
+
+</div>
+
+
+<div class="relode" onclick="onetouch()">reloade</div>
+
+</main>
+
+</body>
+
+<script src="tic_tac_toe_game.js"></script>
+</html>
